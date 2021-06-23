@@ -1,0 +1,75 @@
+main {
+  background: white;
+  height: 100vh;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: "Courier New", monospace ;
+  colour: rgb(0, 0, 0);
+  text-align: center;
+}
+
+img.logo {
+  align-items: center;
+  display: block;
+  margin: 0px auto;
+  width:150px;
+  height:150px;
+}
+
+img.generic-center {
+  align-items: center;
+  display: block;
+  margin: 0px auto;
+}
+
+a:link, a:visited {
+  background-color: #000000;
+  color: white;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #d5fff6;
+  color: black;
+}
+
+/* Style buttons */
+.btn {
+  font-family: "Courier New", monospace;
+  background-color: #000000; /* Background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover, .btn:active {
+  background-color: #ffd5d5;
+  color: black;
+}
+
+div {
+  max-width: 800px;
+  min-width: 200px;
+}
+
+hr {
+  border: 8px dotted #d5fff6;
+  border-style: none none dotted;
+  border-color: #d5fff6;
+  width: 20%;
+}
