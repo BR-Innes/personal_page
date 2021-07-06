@@ -2,6 +2,32 @@
 
 <html lang="en" dir="ltr">
 
+  <script
+  type="text/javascript" language="JavaScript">
+  function showYT() {
+  var videos = [
+    'zeBl_1Q4ISk',
+    'G78_n9PSKvs',
+    'ZAHnipiwAik',
+    'US9fgTR_fkg',
+    'x5Mf_r5jppg',
+    'YDM5ylhKlQc',
+    'fxHLGyCsdRc',
+    '0nxWabOQPl8',
+    'S23ai_3RkMs',
+    '_olDuXNY0Sk',
+    '3_InuI0A2hI',
+    'AKlwXy1dbZ4',
+    'w88tgPLkkhI',
+    'deh5OuquhrE'
+  ];
+
+    var index=Math.floor(Math.random() * videos.length);
+    var html='<iframe width="560" height="315" src="http://www.youtube.com/embed/' + videos[index] + '" frameborder="0" allowfullscreen></iframe></div>';
+    document.write(html);
+  }
+  </script>
+
   <head>
     <meta charset="utf-8">
     <title>Links</title>
@@ -10,10 +36,11 @@
 
   <body>
     <center>
+
     <table cellspacing="10">
 
     <tr>
-      <td><img src="img/links_logo.png" alt="Bobby profile picture" class="logo"></td>
+      <td><img src="img/links_logo_small.png" alt="Link logo picture" class="logo"></td>
       <td>
         <h1>My Online Presence</h1>
         <p><em> Connect | Follow | Watch </em></p>
@@ -21,6 +48,11 @@
     </tr>
 
     </table>
+
+      <h3>Here's Something I Made:</h3>
+    <script type="text/javascript" language="JavaScript">
+    showYT();
+    </script>
 
     <h3>You Can Find Me On:</h3>
     <div class="div">
